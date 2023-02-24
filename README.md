@@ -12,3 +12,4 @@
 
 ## Ссылка:
 
+https://pa-sh-tet.github.io/russian-travel/
