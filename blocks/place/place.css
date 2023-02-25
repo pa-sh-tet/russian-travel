@@ -6,6 +6,10 @@
   margin-bottom: 80px;
 }
 
+.place:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
@@ -24,6 +28,12 @@
 @media screen and (max-width: 666px) {
   .place {
     grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    margin-bottom: 50px;
   }
 }
 

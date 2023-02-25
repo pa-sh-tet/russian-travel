@@ -1,5 +1,4 @@
 .footer__link {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -7,6 +6,11 @@
   margin-right: 18px;
   color: #FFFFFF;
   text-decoration: none;
+  align-self: flex-start;
+}
+
+.footer__link:last-child {
+  margin-right: 0;
 }
 
 .footer__link:hover {
@@ -14,7 +18,7 @@
   transition: linear .3s;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 606px) {
   .footer__link {
     margin-bottom: 32px;
     font-size: 24px;
