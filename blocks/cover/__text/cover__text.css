@@ -1,13 +1,13 @@
-.cover__text { 
+.cover__text {
   max-width: 560px;
   margin: 0 auto;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center; 
-  text-align: center; 
+  align-items: center;
+  text-align: center;
   z-index: 1;
-} 
+}
 
 @media screen and (max-width: 320px) {
   .cover__text {
