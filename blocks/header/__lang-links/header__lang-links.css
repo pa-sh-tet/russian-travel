@@ -1,6 +1,7 @@
 .header__lang-links {
   padding: 0;
-  max-width: 74px;
   display: flex;
   list-style-type: none;
+  margin: 0;
+  align-self: flex-end;
 }

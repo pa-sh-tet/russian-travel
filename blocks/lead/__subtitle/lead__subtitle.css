@@ -18,6 +18,11 @@
 @media screen and (max-width: 768px) {
   .lead__subtitle {
     max-width: calc(100% - 128px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
     font-size: 4vw;
   }
 }
@@ -27,7 +32,7 @@
     max-width: calc(100% - 32px);
     margin: 0 auto 40px;
     font-size: 16px;
-    line-height: 1.25;
+    line-height: 20px;
   }
 }
 

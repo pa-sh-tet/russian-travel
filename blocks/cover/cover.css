@@ -3,8 +3,14 @@
   max-width: 1184px;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .cover {
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    margin: 0 auto 64px;
   }
 }

@@ -1,7 +1,8 @@
 .cover__overlay {
   max-width: 1184px;
-  padding-top: 19%;
-  padding-bottom: 19%;
+  padding-top: 21%;
+  padding-bottom: 21%;
+  margin: 0;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -27,6 +28,12 @@
 
 .cover__overlay:hover::before {
   opacity: .8;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    padding: 14%;
+  }
 }
 
 @media screen and (max-width: 320px) {
